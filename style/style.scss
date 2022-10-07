@@ -3,24 +3,36 @@ $hamburger_height: 15px;
 
 #logo{
     width: 50vw;
-    left: 50%;
     top: 3*$hamburger_height;
-    transform: translateX(-50%);
 }
 
 #hammenu{
     height: 20px;
     top: 10px;
-    left: 50%;
-    transform: translateX(-50%)
+}
+
+#arrow{
+    height: 1.5*$hamburger_height;
+    bottom: 10px;
 }
 
 header{
     height: 100vh;
+    color: white;
     background-image: url(/Media/dough.jpeg);
     background-size: 100vw 100vh;
     background-repeat: no-repeat; 
-    img{
+    
+    img, div{
         position: absolute;
+        left: 50%;
+        transform: translateX(-50%)
+    }
+    div{
+        top: 30%;
+        text-align: center;
+        h1{
+            margin-bottom: 1em;
+        }
     }
 }
