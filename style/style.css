@@ -90,7 +90,34 @@ header div h1 {
 #events #readmore {
   width: 200px;
   margin-top: 5vh;
+  margin-bottom: 3vh;
   border: solid black 2px;
   padding: 0.5em auto;
   justify-self: center;
+}
+
+#carousel {
+  position: relative;
+}
+#carousel img {
+  width: 100vw;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
+}
+#carousel div {
+  position: absolute;
+  margin-top: 3vh;
+  top: 15%;
+  color: white;
+  text-align: center;
+}
+#carousel div p {
+  font-size: 1.5em;
+}
+
+#menu {
+  display: grid;
+  margin-top: 5vh;
+}
+#menu div {
+  margin-top: 5vh;
 }/*# sourceMappingURL=style.css.map */

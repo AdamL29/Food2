@@ -93,8 +93,36 @@ header{
     #readmore{
         width: 200px;
         margin-top: 5vh;
+        margin-bottom: 3vh;
         border: solid black 2px;
         padding: 0.5em auto;
         justify-self: center;
+    }
+}
+
+#carousel{
+    position: relative;
+    img{
+        width: 100vw;
+        box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.5);
+    }
+    div{
+        position: absolute;
+        margin-top: 3vh;
+        top: 15%;
+        color: white;
+        text-align: center;
+        p{
+            font-size: 1.5em;
+        }
+    }
+}
+
+#menu{
+    display: grid;
+
+    margin-top: 5vh;
+    div{
+        margin-top: 5vh;
     }
 }
