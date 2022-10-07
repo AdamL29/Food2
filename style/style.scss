@@ -16,6 +16,10 @@ $font_small: 1.15rem;
     font-weight: bold;
 }
 
+.text-center{
+    text-align: center;
+}
+
 #logo{
     width: 50vw;
     top: 3*$hamburger_height;
@@ -76,5 +80,21 @@ header{
         >a:visted, >a:link{
             color: black;
         }
+    }
+}
+
+#events{
+    display: grid;
+
+    margin-top: 5vh;
+    div{
+        margin-top: 5vh;
+    }
+    #readmore{
+        width: 200px;
+        margin-top: 5vh;
+        border: solid black 2px;
+        padding: 0.5em auto;
+        justify-self: center;
     }
 }
